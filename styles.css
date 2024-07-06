@@ -14,6 +14,7 @@ body {
   }
   
   header {
+   
     background-color: #050505;
     color: #fff;
     padding: 20px;
@@ -21,11 +22,13 @@ body {
   }
   
   nav ul {
+    font-size: 90%;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 1;
     display: flex;
     justify-content: space-between;
+    
   }
   
   nav li {
@@ -85,3 +88,11 @@ body {
       list-style: none;
     }
  
+
+    .logo{
+      width: 40px; /* ajuste o tamanho da logo */
+  height: 40px;
+  margin-left:-14% !important;
+  margin: -4%;
+
+    }
